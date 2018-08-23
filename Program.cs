@@ -398,7 +398,7 @@ namespace MusicBot9001
                 ApplicationName = YoutubeAuth().GetType().ToString()
             });
             */
-            youtubeService = new YouTubeService(new BaseClientService.Initializer() { ApiKey = "AIzaSyDaWrh5nKLEt5ZZa68Q8sodZJzJJN9cemc", ApplicationName = "My Project 40576" });
+            youtubeService = new YouTubeService(new BaseClientService.Initializer() { ApiKey = "", ApplicationName = "My Project 40576" });
 
             Console.WriteLine("[SECRET] YouTube Service created: " + youtubeService.ApiKey);
         }
